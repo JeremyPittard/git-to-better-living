@@ -1,6 +1,7 @@
 import Card from "../../components/Card";
 import Hero from "../../components/Hero";
 import dataExports from "../../utils/dataBuilder";
+import { motion } from "motion/react";
 function Home() {
   const jsonData = JSON.stringify(dataExports, null, 2);
 
@@ -8,7 +9,11 @@ function Home() {
   return (
     <>
       <Hero />
-      <section>
+      <motion.section
+        initial={{ opacity: 0, y: 16 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.2, ease: "easeIn", delay: 0.2 }}
+      >
         <div className="content-container">
           <div className="card-container">
             {dataExports.map((user, index) => (
@@ -16,7 +21,7 @@ function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </motion.section>
     </>
   );
 }

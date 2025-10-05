@@ -6,9 +6,16 @@
   overflow: hidden;
   margin-bottom: var(--spacing-6xl);
 
+  img {
+    min-width: 405px;
+    min-height: 395px;
+    object-fit: cover;
+  }
+
   .text {
     display: flex;
     flex-direction: column;
+
     h2 {
       font-size: var(--font-size-lg);
       font-weight: 600;

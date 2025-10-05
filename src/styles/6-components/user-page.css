@@ -1,0 +1,10 @@
+.user-page {
+  --obect-fit: cover;
+  --object-position: center;
+  img {
+    height: 600px;
+    width: 100%;
+    object-fit: var(--obect-fit);
+    object-position: var(--object-position);
+  }
+}

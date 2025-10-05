@@ -1,0 +1,7 @@
+footer {
+  margin-top: auto;
+  color: var(--color-black);
+  .content-container {
+    background-color: var(--color-yellow);
+  }
+}
