@@ -1,0 +1,23 @@
+/*  
+    styling for bare HTML elements (like H1, A, etc.). 
+    These come with default styling from the browser so 
+    we can redefine them here. 
+*/
+
+html {
+  color: var(--color-text);
+  background-color: var(--color-background);
+  font-size: var(--font-size-md);
+  font-family: var(--body-font);
+}
+
+p {
+  font-family: var(--body-font);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--title-font);
+  line-height: 1.3;
+}
