@@ -4,6 +4,7 @@
   gap: var(--spacing-xxl);
   max-width: 405px;
   overflow: hidden;
+  margin-bottom: var(--spacing-6xl);
 
   .text {
     display: flex;
@@ -17,10 +18,16 @@
       line-height: var(--line-height-md);
     }
   }
+
+  @media (min-width: 1025px) {
+    margin-bottom: revert;
+  }
 }
 
 .card-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns */
-  gap: var(--spacing-3xl); /* Maintain the same spacing */
+  @media (min-width: 1025px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: var(--spacing-3xl); /* Maintain the same spacing */
+  }
 }
