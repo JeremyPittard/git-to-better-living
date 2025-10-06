@@ -5,7 +5,6 @@ import { motion } from "motion/react";
 function Home() {
   const jsonData = JSON.stringify(dataExports, null, 2);
 
-  console.log(jsonData);
   return (
     <>
       <Hero />

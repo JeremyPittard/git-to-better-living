@@ -9,9 +9,7 @@ function Card(props) {
         <h2>{name}</h2>
         <p>{caption}</p>
       </div>
-      <Link to={`/user/${id}`} viewTransition="true">
-        read more
-      </Link>
+      <Link to={`/user/${id}`}>read more</Link>
     </article>
   );
 }

@@ -59,11 +59,12 @@ const UserPage = () => {
         }}
       >
         <div className="content-container">
-          <img src={coverImageUrl} alt="" />
-          <div className="">
+          <div className="caption">
             <p>{caption}</p>
-            <Link to="/">Go home</Link>
+            <Link to="/">Back</Link>
           </div>
+          <img src={coverImageUrl} alt="" />
+
           <p className="text">{bio}</p>
         </div>
       </motion.section>

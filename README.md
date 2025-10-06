@@ -7,21 +7,21 @@ Need a quick git refresher? The aim of this repo is to dust off the cobwebs arou
 - nodejs 18 or higher
 - npm 8 or higher
 
-## Getting Started.
+## The Challenge.
 
-1. Clone this repo
+First up your table will need to pick a PR manager. This person needs to clone the repo
 
 ```bash
 git clone https://github.com/JeremyPittard/git-to-better-living.git
 ```
 
-2. install node modules
+Next, the PR manager will need to:
 
-```bash
-npm install
-```
+1. delete the .git folder in the repo they just cloned
+2. create a new git repository on their github and push the code they just cloned to it.
+3. Add everyone on their table as collaborators.
 
-## The Challenge.
+Once everyone on the table are added as collaborators. Everyone else on the table will need to clone the PR managers repo and install the projects node modules.
 
 In the folder ./src/data there is a file named template-user.js. Copy it, and personalise the keys on the object to suit yourself. From there you need to open a pull request. [read more about pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 

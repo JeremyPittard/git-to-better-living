@@ -23,7 +23,7 @@ p {
   font-family: var(--body-font);
 }
 
-a {
+a:not(footer a) {
   color: var(--color-background);
   text-decoration: none;
   width: max-content;
