@@ -8,10 +8,10 @@ function Footer() {
       transition={{ duration: 0.2, ease: "easeIn", delay: 0.4 }}
     >
       <div className="content-container">
-        <a href="/">
+        <Link to="/">
           Git To <br />
           Better Living
-        </a>
+        </Link>
       </div>
     </motion.footer>
   );

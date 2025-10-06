@@ -1,5 +1,6 @@
 import { Link, useParams } from "react-router";
 import dataExports from "../../utils/dataBuilder";
+import Footer from "../../components/Footer";
 import { motion } from "motion/react";
 
 const UserPage = () => {
@@ -68,6 +69,7 @@ const UserPage = () => {
           <p className="text">{bio}</p>
         </div>
       </motion.section>
+      <Footer />
     </>
   );
 };

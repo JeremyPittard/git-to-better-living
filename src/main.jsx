@@ -16,6 +16,5 @@ ReactDOM.createRoot(root).render(
         <Route path="/user/:id" element={<UserPage />} />
       </Routes>
     </BrowserRouter>
-    <Footer />
   </>
 );

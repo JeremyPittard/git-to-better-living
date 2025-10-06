@@ -1,10 +1,9 @@
 import Card from "../../components/Card";
 import Hero from "../../components/Hero";
+import Footer from "../../components/Footer";
 import dataExports from "../../utils/dataBuilder";
 import { motion } from "motion/react";
 function Home() {
-  const jsonData = JSON.stringify(dataExports, null, 2);
-
   return (
     <>
       <Hero />
@@ -21,6 +20,7 @@ function Home() {
           </div>
         </div>
       </motion.section>
+      <Footer />
     </>
   );
 }
